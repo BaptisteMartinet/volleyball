@@ -1,0 +1,13 @@
+//Copyright Imania (c) 2021
+//Volleyball
+//Trade URL: https://steamcommunity.com/tradeoffer/new/?partner=156107863&token=qmS76kKO (i only accept D.lore gift)
+
+class Box {
+	_bottomLeft = null;
+	_topRight = null;
+
+	constructor (bottomLeft, topRight) {
+		this._bottomLeft = bottomLeft;
+		this._topRight = topRight;
+	}
+}
