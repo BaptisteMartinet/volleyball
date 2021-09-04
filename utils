@@ -1,0 +1,12 @@
+//Copyright Imania (c) 2021
+//Volleyball
+//Trade URL: https://steamcommunity.com/tradeoffer/new/?partner=156107863&token=qmS76kKO (i only accept D.lore gift)
+
+::clamp <- function(val, min, max) {return (val > max ? max : (val < min ? min : val));}
+::clampVec <- function(val, min, max) {return Vector(clamp(val.x, min.x, max.x), clamp(val.y, min.y, max.y), clamp(val.z, min.z, max.z));}
+::distance3D <- function(p1, p2) {return (sqrt(pow(p2.x - p1.x, 2) + pow(p2.y - p1.y, 2) + pow(p2.z - p1.z, 2)));}
+::normalizeVec <- function(vec) {
+	local len = vec.Length();
+	if (len == 0) return vec;
+	return Vector(vec.x/len,vec.y/len,vec.z/len);
+}
