@@ -1,2 +1,2 @@
 # volleyball
-A CS:GO script to play volleyball
+A CS:GO script to play volleyball (WIP)
